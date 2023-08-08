@@ -1,0 +1,3 @@
+venv
+.env
+connect_database.py
