@@ -52,3 +52,58 @@ def load_object(file_path):
     
     except Exception as e :
         return CustomException(e, sys)
+    
+def drop_na(df):
+    df.dropna(inplace=True)    
+
+def jouney_tranformation(df):
+    df['journey_day'] = pd.to_datetime(df["Date_of_Journey"]).dt.day
+    df['journey_month']= pd.to_datetime(df["Date_of_Journey"]).dt.month
+    df.drop('Date_of_Journey', axis=1, inplace=True)
+
+def arival_time_tranformation(df):
+    df["Arrival_Time_hour"] = pd.to_datetime(df["Arrival_Time"]).dt.hour
+    df["Arrival_Time_min"] = pd.to_datetime(df["Arrival_Time"]).dt.minute
+    df.drop("Arrival_Time",axis=1,inplace=True)
+
+def dep_time_transformation(df):
+    df["Dep_Time_hour"] = pd.to_datetime(df["Dep_Time"]).dt.hour
+    df["Dep_Time_min"] = pd.to_datetime(df["Dep_Time"]).dt.minute
+    df.drop("Dep_Time",axis=1,inplace=True)
+
+def duration_tranformation(df):
+    def dur_hour(x):
+        return x.split(" ")[0][0:-1]
+
+    def dur_minutes(x):
+        return x.split(" ")[1][0:-1]
+
+    duration = list(df['Duration'])
+    for i in range(len(duration)):
+        if len(duration[i].split(" "))==2:
+            pass
+        else:
+            if "h" in duration[i]:
+                duration[i] = duration[i]+" 0m"
+            else:
+                duration[i] = "0h "+duration[i] 
+    df['Duration'] = duration
+
+    # Extracting Duration Hours
+    df["Dur_hours"] = df["Duration"].apply(dur_hour).astype(int)
+    # Extracting Duration Minutes
+    df["Dur_mins"] = df["Duration"].apply(dur_minutes).astype(int)
+    # Dropping Duration column
+    df.drop(columns=["Duration"],inplace=True)
+
+def replace_vlaues(df):
+    df.Airline.replace("Trujet","other",inplace=True)
+    df.Airline.replace("Vistara Premium economy","other",inplace=True)
+    df.Airline.replace("Jet Airways Business","other",inplace=True)
+    df.Airline.replace("Multiple carriers Premium economy","other",inplace=True)
+    df.Total_Stops.replace("4 stops","3 stops",inplace=True)
+
+
+def drop_features(df):
+    df.drop(columns=["Additional_Info","Route"],inplace=True)
+            

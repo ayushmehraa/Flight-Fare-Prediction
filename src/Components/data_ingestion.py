@@ -11,10 +11,10 @@ import pandas as pd
 import os
 from dotenv import load_dotenv
 
-# from src.components.data_transformation import DataTransformation
-# from src.components.data_transformation import DataTransformationConfig
-# from src.components.model_trainer import ModelTrainer
-# from src.components.model_trainer import ModelTrainerConfig
+from src.Components.data_tranformation import DataTransformation
+from src.Components.data_tranformation import DataTransformationConfig
+from src.Components.model_trainer import ModelTrainer
+from src.Components.model_trainer import ModelTrainerConfig
 
 
 @dataclass # we can dirctly define our class variabel with dataclass without using __init__
@@ -66,8 +66,8 @@ class DataIngestion:
 if __name__=="__main__":
     obj = DataIngestion()
     train_data, test_data = obj.initate_data_ingestion()
-    # data_transformation = DataTransformation()
-    # train_array,test_array, preprocessor_path = data_transformation.initiate_data_transformation(train_data,test_data)
-    # modeltrainer = ModelTrainer()
-    # print(modeltrainer.initate_model_trainer(train_array=train_array,test_array=test_array,preprocessor_path=preprocessor_path))
+    data_transformation = DataTransformation()
+    train_array,test_array, preprocessor_path = data_transformation.initiate_data_transformation(train_data,test_data)
+    modeltrainer = ModelTrainer()
+    print(modeltrainer.initate_model_trainer(train_array=train_array,test_array=test_array,preprocessor_path=preprocessor_path))
 
