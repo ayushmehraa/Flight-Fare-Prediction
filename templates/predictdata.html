@@ -1,0 +1,179 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    
+        
+    
+      </head>
+<body class="" style="background-image: url('/static/aeroplane.png');background-repeat: no-repeat;background-attachment: fixed;background-size: 100% 100%;   font-family: 'Bitter', serif;">
+    <div style = " margin-top: 50px; width: 100%;" >
+       <div class="heading text-center" style = " margin-bottom: 40px; width: 100%; font-size: 70px;font-family: 'Lobster', cursive ;">
+            <a href="/"><h1>Flight Fare Prediction</h1></a>
+        </div>
+        <h1 class=" text-center" style="margin-bottom: 100px;"  >
+            <legend>Enter your data</legend>
+        </h1>
+   <div class="container" style="font-size: 20px;">
+       <form action="{{ url_for('predict_datapoint')}}" method="post">
+        <div class="form_values  text-center"  >
+        <div class="mb-3 ">
+            <label class="form-label">Airline</label>
+            <select class="form-control" style="margin-left: 150px; width: 25%;display: inline;" name="Airline" placeholder="Enter you Airline" required>
+                <option class="placeholder" selected disabled value="">Select your Airline</option>
+                <option value="IndiGo">
+                    IndiGo
+                </option>
+                <option value="Air India">
+                    Air India
+                </option>
+                <option value="Jet Airways">
+                    Jet Airways
+                </option>
+                <option value="SpiceJet">
+                    Jet Airways
+                </option>
+                <option value="Multiple carriers">
+                    Multiple carriers
+                </option>
+                <option value="GoAir">
+                    GoAir
+                </option>
+                <option value="Vistara">
+                    Vistara
+                </option>
+                <option value="Air Asia">
+                    Air Asia
+                </option>
+                <option value="Air India">
+                    other
+                </option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Source</label>
+            <select class="form-control " style="margin-left: 150px; width: 25%;display: inline;" name="Source" placeholder="Enter you Source" required>
+                <option class="placeholder" selected disabled value="">Select Source</option>
+                <option value="Banglore">
+                    Banglore
+                </option>
+                <option value="Kolkata">
+                    Kolkata
+                </option>
+                <option value="Delhi">
+                    Delhi
+                </option>
+                <option value="Chennai">
+                    Chennai
+                </option>
+                <option value="Mumbai">
+                    Mumbai
+                </option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Destination</label>
+            <select class="form-control " style="margin-left: 120px; width: 25%;display: inline;" name="Destination"
+                placeholder="Enter you Parent Destination" required>
+                <option class="placeholder" selected disabled value="">Select Destination</option>
+                <option value="New Delhi">
+                    New Delhi
+                </option>
+                <option value="Banglore">
+                    bachelor's degree
+                </option>
+                <option value="Cochin">
+                    Cochin
+                </option>
+                <option value="Kolkata">
+                    Kolkata
+                </option>
+                <option value="Delhi">
+                    Delhi
+                </option>
+                <option value="Hyderabad">
+                    Hyderabad
+                </option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Total Stops</label>
+            <select class="form-control" style="margin-left: 120px; width: 25%;display: inline;" name="Total_Stops" placeholder="Enter you Total Stops" required>
+                <option class="placeholder" selected disabled value="">Select Total Stops</option>
+                <option value="non-stop">
+                    non-stop
+                </option>
+                <option value="1 stops">
+                    1 stops
+                </option>
+                <option value="2 stops">
+                    2 stops
+                </option>
+                <option value="3 stops">
+                    3 stops
+                </option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Journey Day</label>
+            <input class="form-control " style="margin-left: 110px; width: 25%;display: inline;" type="number" name="journey_day"
+            placeholder="Enter your Journey Day" min='0' max='31' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Journey Month</label>
+            <input class="form-control " style="margin-left: 92px; width: 25%;display: inline;" type="number" name="journey_month"
+                placeholder="Enter your Journey Month" min='0' max='12' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Arrival Time Hour</label>
+            <input class="form-control" style="margin-left: 70px; width: 25%;display: inline;" type="number" name="Arrival_Time_hour"
+                placeholder="Enter your Arrival Time Hour" min='0' max='23' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Arrival Time Min</label>
+            <input class="form-control" style="margin-left: 76px; width: 25%;display: inline;" type="number" name="Arrival_Time_min"
+                placeholder="Enter your Arrival Time Min" min='0' max='59' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Departure Time Hour</label>
+            <input class="form-control" style="margin-left: 55px; width: 25%;display: inline;" type="number" name="Dep_Time_hour"
+                placeholder="Enter your Departure Time Hour" min='0' max='23' />
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Departure Time Min</label>
+            <input class="form-control" style="margin-left: 58px; width: 25%;display: inline;" type="number" name="Dep_Time_min"
+                placeholder="Enter your Departure Time Min" min='0' max='59' />
+        </div>
+        
+        <div class="mb-3">
+            <label class="form-label">Duration Hour</label>
+            <input class="form-control" style="margin-left: 100px; width: 25%;display: inline;" type="number" name="Dur_hours"
+                placeholder="Enter your Duration Hours" min='0' max='23' />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Duration Mins</label>
+            <input class="form-control" style="margin-left: 100px; width: 25%;display: inline;" type="number" name="Dur_mins"
+                placeholder="Enter your Duration Mins" min='0' max='59' />
+        </div>
+        <a href="">
+        <div class="mb-3">
+            <input class="btn btn-primary" type="submit" value="Predict your Flight Fare" required />
+        </div>
+        </a>
+    </div>
+    </div>
+    </form>
+    <div class="prediction text-center w-100">
+        <h2 style="width: 25%;margin: auto;border: 2px solid #007fff;border-radius: 6px;color: azure;background-color: #007fff;">
+        The  Flight Fare : {{results}}
+        </h2>
+    </div>
+   <body>
+</html>
