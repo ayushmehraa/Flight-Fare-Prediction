@@ -81,7 +81,7 @@ else:
 
 
 # Reading classification model
-load_model = pickle.load(open('artifacts\model.pkl','rb'))
+load_model = pickle.load(open(r'artifacts\model.pkl','rb'))
 
 st.subheader('data')
 st.write(final_df)
