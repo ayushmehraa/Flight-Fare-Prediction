@@ -7,8 +7,9 @@ import os
 from src.utils import load_object
 
 
+
 st.title("""
-light Fare Prediction
+Flight Fare Prediction
 Your Flight Fare Fortune Teller: Plan your trips wisely with our Flight Fare Prediction tool. Compare fares, track trends, and make informed decisions. Never overpay for a ticket again
 -- let data guide your travel choices.
 """)
@@ -81,13 +82,14 @@ else:
 
 
 # Reading classification model
-load_model = pickle.load(open('artifacts/model.pkl','rb'))
+model_path=os.path.join("artifacts","model.pkl")
+model=load_object(file_path=model_path)
 
 st.subheader('data')
-st.write(final_df)
+st.write(input_df)
 
 # making predictions
-prediction =  load_model.predict(final_df)
+prediction =  model.predict(final_df)
 
 st.subheader('Flight Fare Prediction')
 st.write(prediction)
