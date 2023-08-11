@@ -84,7 +84,7 @@ else:
 
 # Reading classification model
 model_path=os.path.join("artifacts","model.pkl")
-model=load_object(file_path=model_path)
+model=load_object(model_path)
 
 st.subheader('data')
 st.write(input_df)
