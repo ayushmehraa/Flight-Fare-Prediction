@@ -81,16 +81,15 @@ else:
     st.write(df)
 
 
-
 # Reading classification model
-model_path=os.path.join("artifacts","model.pkl")
-model=load_object(model_path)
+model_path = os.path.join("artifacts","model.pkl")
+model = load_object(model_path)
 
 st.subheader('data')
 st.write(input_df)
 
 # making predictions
-prediction =  model.predict(final_df)
+prediction = model.predict(final_df)
 
 st.subheader('Flight Fare Prediction')
 st.write(prediction)
