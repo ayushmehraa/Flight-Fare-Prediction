@@ -83,7 +83,8 @@ else:
 
 # Reading classification model
 model_path = os.path.join("artifacts","model.pkl")
-model = load_object(model_path)
+# model = load_object(model_path)
+model = pickle.load(open(model_path,'rb'))
 
 st.subheader('data')
 st.write(input_df)
