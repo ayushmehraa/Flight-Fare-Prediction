@@ -4,6 +4,7 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 import pickle
 import os
+import catboost
 from src.utils import load_object
 
 
@@ -83,7 +84,6 @@ else:
 
 # Reading classification model
 model_path = os.path.join("artifacts","model.pkl")
-# model = load_object(model_path)
 model = pickle.load(open(model_path,'rb'))
 
 st.subheader('data')
