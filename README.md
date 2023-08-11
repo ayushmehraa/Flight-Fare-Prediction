@@ -31,7 +31,7 @@ Technologies used.
 
 - [📖 Table of Contents](#-table-of-contents)
 - [📂 Dataset](#-dataset)
-    -[📜 Overview](#-dataset-overview)
+    -[📜 *Overview*](#-dataset-overview)
 - [📍 Overview](#-overview)
 - [⚙️ Features](#️-features)
 - [🛠 Project Structure](#-project-structure)
