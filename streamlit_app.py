@@ -55,7 +55,8 @@ else:
     input_df =user_input_features()
 
 # combining the input features with entire flight dataset for encoding
-flight_fare = pd.read_csv(r'artifacts\raw_data.csv')
+raw_data_csv = os.path.join("artifacts","raw_data.csv")
+flight_fare = pd.read_csv(raw_data_csv)
 df = pd.concat([input_df,flight_fare],axis=0)
 
 
