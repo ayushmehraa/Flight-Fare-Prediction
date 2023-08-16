@@ -42,7 +42,7 @@ Technologies used.
   -[      Development Steps](-development-steps)
  -[🌲 Streamlit Web App for Flight Fare Prediction](#-streamlit-web-app-for-flight-fare-prediction)
   -[📜 Overview](-overview)
-  -      [Development Steps](-development-steps)
+  -[Development Steps](-development-steps)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
