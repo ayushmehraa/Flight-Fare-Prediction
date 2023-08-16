@@ -1,0 +1,5 @@
+[ 2023-08-10 15:11:19,215 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-10 15:11:19,224 ] 224 werkzeug - INFO -  * Debugger PIN: 120-344-466
+[ 2023-08-10 15:11:21,309 ] 224 werkzeug - INFO -  * Detected change in 'D:\\GitHub_Projects\\Internship\\ineuron\\project\\app.py', reloading
+[ 2023-08-10 15:11:21,310 ] 224 werkzeug - INFO -  * Detected change in 'D:\\GitHub_Projects\\Internship\\ineuron\\project\\app.py', reloading
+[ 2023-08-10 15:11:21,310 ] 224 werkzeug - INFO -  * Detected change in 'D:\\GitHub_Projects\\Internship\\ineuron\\project\\app.py', reloading

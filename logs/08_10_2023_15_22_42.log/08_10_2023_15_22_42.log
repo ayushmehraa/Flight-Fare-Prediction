@@ -1,0 +1,19 @@
+[ 2023-08-10 15:22:42,410 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-10 15:22:42,419 ] 224 werkzeug - INFO -  * Debugger PIN: 120-344-466
+[ 2023-08-10 15:22:43,325 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:22:43] "GET / HTTP/1.1" 200 -
+[ 2023-08-10 15:22:43,584 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:22:43] "[33mGET /aeroplane.png HTTP/1.1[0m" 404 -
+[ 2023-08-10 15:23:10,399 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:23:10] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-08-10 15:23:10,660 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:23:10] "[33mGET /template/aeroplane.png HTTP/1.1[0m" 404 -
+[ 2023-08-10 15:24:57,871 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:24:57] "GET / HTTP/1.1" 200 -
+[ 2023-08-10 15:24:58,199 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:24:58] "GET /static/aeroplane.png HTTP/1.1" 200 -
+[ 2023-08-10 15:25:01,554 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:25:01] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-08-10 15:25:01,910 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:25:01] "[36mGET /static/aeroplane.png HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:29:00,219 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:29:00] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-08-10 15:29:00,470 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:29:00] "[36mGET /static/aeroplane.png HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:29:51,074 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:29:51] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-08-10 15:29:51,330 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:29:51] "[36mGET /static/aeroplane.png HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:30:56,787 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:30:56] "GET /predictdata HTTP/1.1" 200 -
+[ 2023-08-10 15:30:57,049 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:30:57] "[36mGET /static/aeroplane.png HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:31:38,454 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Roaming\\Python\\Python311\\site-packages\\IPython\\display.py', reloading
+[ 2023-08-10 15:31:38,572 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Roaming\\Python\\Python311\\site-packages\\IPython\\core\\display_functions.py', reloading
+[ 2023-08-10 15:31:38,594 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Roaming\\Python\\Python311\\site-packages\\IPython\\lib\\display.py', reloading

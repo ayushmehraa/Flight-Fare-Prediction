@@ -1,0 +1,10 @@
+[ 2023-08-10 14:34:09,079 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-10 14:34:09,089 ] 224 werkzeug - INFO -  * Debugger PIN: 120-344-466
+[ 2023-08-10 14:34:45,708 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\sessions.py', reloading
+[ 2023-08-10 14:34:45,727 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\json\\tag.py', reloading
+[ 2023-08-10 14:34:45,795 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\flask\\config.py', reloading
+[ 2023-08-10 14:34:45,839 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\sansio\\request.py', reloading
+[ 2023-08-10 14:34:45,850 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\utils.py', reloading
+[ 2023-08-10 14:34:45,895 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\_internal.py', reloading
+[ 2023-08-10 14:34:46,090 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\werkzeug\\datastructures.py', reloading
+[ 2023-08-10 14:34:46,223 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\typing.py', reloading

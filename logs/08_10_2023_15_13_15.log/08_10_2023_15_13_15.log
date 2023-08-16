@@ -1,0 +1,25 @@
+[ 2023-08-10 15:13:16,126 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-10 15:13:16,135 ] 224 werkzeug - INFO -  * Debugger PIN: 120-344-466
+[ 2023-08-10 15:13:17,452 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:17] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2023-08-10 15:13:17,736 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:17] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:13:17,796 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:17] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:13:17,817 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:17] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:13:18,157 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:18] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:13:19,685 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:19] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2023-08-10 15:13:20,030 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:20] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:13:20,037 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:20] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2023-08-10 15:13:20,136 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:20] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:13:20,274 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:20] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-08-10 15:13:20,385 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:13:20,398 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:20] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:13:24,275 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:24] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2023-08-10 15:13:24,609 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:24] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:13:24,610 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:24] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:13:24,876 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:24] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:13:24,937 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:24] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:13:30,536 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:30] "[35m[1mGET /predictdata HTTP/1.1[0m" 500 -
+[ 2023-08-10 15:13:30,872 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:30] "GET /predictdata?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[ 2023-08-10 15:13:30,874 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:30] "GET /predictdata?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-08-10 15:13:31,139 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:31] "GET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+[ 2023-08-10 15:13:31,201 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:31] "[36mGET /predictdata?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:13:32,991 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:13:32] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -

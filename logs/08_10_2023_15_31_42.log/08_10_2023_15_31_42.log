@@ -1,0 +1,20 @@
+[ 2023-08-10 15:31:42,167 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-10 15:31:42,174 ] 224 werkzeug - INFO -  * Debugger PIN: 120-344-466
+[ 2023-08-10 15:31:42,243 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Roaming\\Python\\Python311\\site-packages\\ipywidgets\\_version.py', reloading
+[ 2023-08-10 15:31:42,270 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Users\\HP\\AppData\\Roaming\\Python\\Python311\\site-packages\\traitlets\\utils\\sentinel.py', reloading
+[ 2023-08-10 15:31:42,336 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\numpy\\_typing\\_shape.py', reloading
+[ 2023-08-10 15:31:42,380 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\seaborn\\rcmod.py', reloading
+[ 2023-08-10 15:31:42,397 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\seaborn\\utils.py', reloading
+[ 2023-08-10 15:31:42,431 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\seaborn\\palettes.py', reloading
+[ 2023-08-10 15:31:42,454 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\seaborn\\relational.py', reloading
+[ 2023-08-10 15:31:42,470 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\seaborn\\regression.py', reloading
+[ 2023-08-10 15:31:42,519 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\seaborn\\categorical.py', reloading
+[ 2023-08-10 15:31:42,560 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\seaborn\\distributions.py', reloading
+[ 2023-08-10 15:31:42,591 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\seaborn\\matrix.py', reloading
+[ 2023-08-10 15:31:42,617 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\seaborn\\miscplot.py', reloading
+[ 2023-08-10 15:31:42,630 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\seaborn\\axisgrid.py', reloading
+[ 2023-08-10 15:31:42,655 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\seaborn\\widgets.py', reloading
+[ 2023-08-10 15:31:42,755 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\numpy\\_typing\\_dtype_like.py', reloading
+[ 2023-08-10 15:31:42,889 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\seaborn\\algorithms.py', reloading
+[ 2023-08-10 15:31:42,940 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\numpy\\_typing\\_scalars.py', reloading
+[ 2023-08-10 15:31:43,068 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\numpy\\_typing\\_char_codes.py', reloading

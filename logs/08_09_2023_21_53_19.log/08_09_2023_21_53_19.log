@@ -1,0 +1,15 @@
+[ 2023-08-09 21:53:20,474 ] 34 root - INFO - Entered the data ingestion or component
+[ 2023-08-09 21:53:24,236 ] 45 cassandra.cluster - WARNING - Downgrading core protocol version from 66 to 65 for 2a8b820c-78c2-4e10-bdf5-f39f190661b1-us-east1.db.astra.datastax.com:29042:b02a0f98-6cdc-45e6-99e3-d8a223640f73. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[ 2023-08-09 21:53:25,397 ] 45 cassandra.cluster - WARNING - Downgrading core protocol version from 65 to 5 for 2a8b820c-78c2-4e10-bdf5-f39f190661b1-us-east1.db.astra.datastax.com:29042:b02a0f98-6cdc-45e6-99e3-d8a223640f73. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[ 2023-08-09 21:53:26,575 ] 448 cassandra.connection - ERROR - Closing connection <AsyncoreConnection(1868305875856) 2a8b820c-78c2-4e10-bdf5-f39f190661b1-us-east1.db.astra.datastax.com:29042:b02a0f98-6cdc-45e6-99e3-d8a223640f73> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
+[ 2023-08-09 21:53:26,575 ] 45 cassandra.cluster - WARNING - Downgrading core protocol version from 5 to 4 for 2a8b820c-78c2-4e10-bdf5-f39f190661b1-us-east1.db.astra.datastax.com:29042:b02a0f98-6cdc-45e6-99e3-d8a223640f73. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[ 2023-08-09 21:53:29,604 ] 289 cassandra.policies - INFO - Using datacenter 'us-east1' for DCAwareRoundRobinPolicy (via host '2a8b820c-78c2-4e10-bdf5-f39f190661b1-us-east1.db.astra.datastax.com:29042:b02a0f98-6cdc-45e6-99e3-d8a223640f73'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+[ 2023-08-09 21:53:41,275 ] 49 root - INFO - Read the dataset as dataframe
+[ 2023-08-09 21:53:41,315 ] 53 root - INFO - Train test split initiated
+[ 2023-08-09 21:53:41,355 ] 57 root - INFO - Ingestion of data is completed
+[ 2023-08-09 21:53:41,388 ] 77 root - INFO - Read train and test data completed
+[ 2023-08-09 21:53:41,640 ] 97 root - INFO - feature engg completed!
+[ 2023-08-09 21:53:41,640 ] 99 root - INFO - Obtaining preprocessing object
+[ 2023-08-09 21:53:41,640 ] 57 root - INFO - Categorical columns: ['Airline', 'Source', 'Destination', 'Total_Stops']
+[ 2023-08-09 21:53:41,640 ] 58 root - INFO - Numerical columns: ['journey_day', 'journey_month', 'Dep_Time_hour', 'Dep_Time_min', 'Arrival_Time_hour', 'Arrival_Time_min', 'Dur_hours', 'Dur_mins']
+[ 2023-08-09 21:53:41,641 ] 112 root - INFO - Applying preprocessing object on training dataframe and testing dataframe.

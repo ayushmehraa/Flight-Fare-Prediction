@@ -1,0 +1,4 @@
+[ 2023-08-10 15:09:30,321 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-10 15:09:30,326 ] 224 werkzeug - INFO -  * Debugger PIN: 120-344-466
+[ 2023-08-10 15:09:43,510 ] 224 werkzeug - INFO -  * Detected change in 'C:\\Python311\\Lib\\site-packages\\jinja2\\loaders.py', reloading
+[ 2023-08-10 15:09:43,579 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:09:43] "[35m[1mGET / HTTP/1.1[0m" 500 -

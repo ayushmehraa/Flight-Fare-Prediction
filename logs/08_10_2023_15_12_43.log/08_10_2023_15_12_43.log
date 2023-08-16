@@ -1,0 +1,17 @@
+[ 2023-08-10 15:12:43,803 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-10 15:12:43,811 ] 224 werkzeug - INFO -  * Debugger PIN: 120-344-466
+[ 2023-08-10 15:12:44,376 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:12:44] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2023-08-10 15:12:44,651 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:12:44] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:12:44,730 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:12:44] "[36mGET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:12:44,750 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:12:44] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:12:45,111 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:12:45] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:12:47,456 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:12:47] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2023-08-10 15:12:47,797 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:12:47] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:12:47,804 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:12:47] "[35m[1mGET / HTTP/1.1[0m" 500 -
+[ 2023-08-10 15:12:47,954 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:12:47] "[36mGET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:12:48,060 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:12:48] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[ 2023-08-10 15:12:48,091 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:12:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:12:48,138 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:12:48] "[36mGET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:13:00,343 ] 224 werkzeug - INFO -  * Detected change in 'D:\\GitHub_Projects\\Internship\\ineuron\\project\\app.py', reloading
+[ 2023-08-10 15:13:00,375 ] 224 werkzeug - INFO -  * Detected change in 'D:\\GitHub_Projects\\Internship\\ineuron\\project\\app.py', reloading
+[ 2023-08-10 15:13:00,375 ] 224 werkzeug - INFO -  * Detected change in 'D:\\GitHub_Projects\\Internship\\ineuron\\project\\app.py', reloading

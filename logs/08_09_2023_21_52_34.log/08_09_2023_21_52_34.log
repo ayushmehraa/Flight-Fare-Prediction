@@ -1,0 +1,60 @@
+[ 2023-08-09 21:52:36,014 ] 34 root - INFO - Entered the data ingestion or component
+[ 2023-08-09 21:52:39,637 ] 45 cassandra.cluster - WARNING - Downgrading core protocol version from 66 to 65 for 2a8b820c-78c2-4e10-bdf5-f39f190661b1-us-east1.db.astra.datastax.com:29042:b02a0f98-6cdc-45e6-99e3-d8a223640f73. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[ 2023-08-09 21:52:41,683 ] 45 cassandra.cluster - WARNING - Downgrading core protocol version from 65 to 5 for 2a8b820c-78c2-4e10-bdf5-f39f190661b1-us-east1.db.astra.datastax.com:29042:b02a0f98-6cdc-45e6-99e3-d8a223640f73. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[ 2023-08-09 21:52:44,755 ] 448 cassandra.connection - ERROR - Closing connection <AsyncoreConnection(2245738224208) 2a8b820c-78c2-4e10-bdf5-f39f190661b1-us-east1.db.astra.datastax.com:29042:b02a0f98-6cdc-45e6-99e3-d8a223640f73> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
+[ 2023-08-09 21:52:44,755 ] 45 cassandra.cluster - WARNING - Downgrading core protocol version from 5 to 4 for 2a8b820c-78c2-4e10-bdf5-f39f190661b1-us-east1.db.astra.datastax.com:29042:b02a0f98-6cdc-45e6-99e3-d8a223640f73. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+[ 2023-08-09 21:52:49,870 ] 289 cassandra.policies - INFO - Using datacenter 'us-east1' for DCAwareRoundRobinPolicy (via host '2a8b820c-78c2-4e10-bdf5-f39f190661b1-us-east1.db.astra.datastax.com:29042:b02a0f98-6cdc-45e6-99e3-d8a223640f73'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+[ 2023-08-09 21:52:51,872 ] 45 cassandra.cluster - WARNING - [control connection] Error connecting to 2a8b820c-78c2-4e10-bdf5-f39f190661b1-us-east1.db.astra.datastax.com:29042:b02a0f98-6cdc-45e6-99e3-d8a223640f73:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3541, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3618, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3615, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3717, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1092, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1090, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1602, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+[ 2023-08-09 21:52:56,910 ] 45 cassandra.cluster - WARNING - [control connection] Error connecting to 2a8b820c-78c2-4e10-bdf5-f39f190661b1-us-east1.db.astra.datastax.com:29042:e28f5fb9-8ed2-4c39-b0de-07fa3d4b1c6b:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3541, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3618, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3615, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3717, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1092, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1090, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1602, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+[ 2023-08-09 21:53:01,648 ] 45 cassandra.cluster - WARNING - [control connection] Error connecting to 2a8b820c-78c2-4e10-bdf5-f39f190661b1-us-east1.db.astra.datastax.com:29042:fc4939de-b6cd-496f-8239-066bb9d40b1d:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 3541, in cassandra.cluster.ControlConnection._reconnect_internal
+  File "cassandra\cluster.py", line 3618, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3615, in cassandra.cluster.ControlConnection._try_connect
+  File "cassandra\cluster.py", line 3717, in cassandra.cluster.ControlConnection._refresh_schema
+  File "cassandra\metadata.py", line 142, in cassandra.metadata.Metadata.refresh
+  File "cassandra\metadata.py", line 165, in cassandra.metadata.Metadata._rebuild_all
+  File "cassandra\metadata.py", line 2872, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2522, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2031, in get_all_keyspaces
+  File "cassandra\metadata.py", line 2811, in cassandra.metadata.SchemaParserV4._query_all
+  File "cassandra\connection.py", line 1092, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1090, in cassandra.connection.Connection.wait_for_responses
+  File "cassandra\connection.py", line 1602, in cassandra.connection.ResponseWaiter.deliver
+cassandra.OperationTimedOut: errors=None, last_host=None
+[ 2023-08-09 21:53:01,649 ] 45 cassandra.cluster - ERROR - Control connection failed to connect, shutting down Cluster:
+Traceback (most recent call last):
+  File "cassandra\cluster.py", line 1700, in cassandra.cluster.Cluster.connect
+  File "cassandra\cluster.py", line 3507, in cassandra.cluster.ControlConnection.connect
+  File "cassandra\cluster.py", line 3552, in cassandra.cluster.ControlConnection._reconnect_internal
+cassandra.cluster.NoHostAvailable: ('Unable to connect to any servers', {'2a8b820c-78c2-4e10-bdf5-f39f190661b1-us-east1.db.astra.datastax.com:29042:b02a0f98-6cdc-45e6-99e3-d8a223640f73': OperationTimedOut('errors=None, last_host=None'), '2a8b820c-78c2-4e10-bdf5-f39f190661b1-us-east1.db.astra.datastax.com:29042:e28f5fb9-8ed2-4c39-b0de-07fa3d4b1c6b': OperationTimedOut('errors=None, last_host=None'), '2a8b820c-78c2-4e10-bdf5-f39f190661b1-us-east1.db.astra.datastax.com:29042:fc4939de-b6cd-496f-8239-066bb9d40b1d': OperationTimedOut('errors=None, last_host=None')})

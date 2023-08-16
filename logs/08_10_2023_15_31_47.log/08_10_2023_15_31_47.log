@@ -1,0 +1,5 @@
+[ 2023-08-10 15:31:47,916 ] 224 werkzeug - WARNING -  * Debugger is active!
+[ 2023-08-10 15:31:47,922 ] 224 werkzeug - INFO -  * Debugger PIN: 120-344-466
+[ 2023-08-10 15:32:38,601 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:32:38] "POST /predictdata HTTP/1.1" 200 -
+[ 2023-08-10 15:32:38,668 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:32:38] "[36mGET /static/aeroplane.png HTTP/1.1[0m" 304 -
+[ 2023-08-10 15:34:06,714 ] 224 werkzeug - INFO - 127.0.0.1 - - [10/Aug/2023 15:34:06] "GET /predictdata HTTP/1.1" 200 -
