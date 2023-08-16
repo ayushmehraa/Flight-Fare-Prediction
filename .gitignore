@@ -2,5 +2,4 @@ venv
 .env
 connect_database.py
 logs
-.github
-.github/workflow
+.github/
