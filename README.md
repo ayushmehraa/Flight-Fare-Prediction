@@ -27,6 +27,7 @@ Technologies used.
 
 
 
+
 ## 📖 Table of Contents
 
 - [📖 Table of Contents](#-table-of-contents)
@@ -37,12 +38,13 @@ Technologies used.
 - [🛠 Project Structure](#-project-structure)
 - [🚀 Getting Started](#-getting-started)
 - [🤖 Web App](#-web-app)
-    - [🌲 Flask Web App for Flight Fare Prediction](#-Flask-web-app-for-flight-fare-prediction)
-        - [📜 Overview](-overview)
-        - [      Development Steps](-development-steps)
-    - [🌲 Streamlit Web App for Flight Fare Prediction](#-streamlit-web-app-for-flight-fare-prediction)
-        - [📜 Overview](-overview)
-        - [Development Steps](-development-steps)
+  - [🌲 Flask Web App for Flight Fare Prediction](#-Flask-web-app-for-flight-fare-prediction)
+    - [📜 Overview](-overview)
+    - [
+          Development Steps](-development-steps)
+  - [🌲 Streamlit Web App for Flight Fare Prediction](#-streamlit-web-app-for-flight-fare-prediction)
+    - [📜 Overview](-overview)
+    - [Development Steps](-development-steps)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
@@ -77,6 +79,7 @@ Features: The dataset includes a variety of features, such as:
 - Target Variable: The primary target variable is the "Price" column, which represents the flight fare in Indian Rupees (INR).
 
 ---
+
 ## ⚙️ Features
 
 - Data Collection: The project starts by gathering historical flight data, including details such as departure and arrival locations, airline, departure time, and more.
@@ -113,56 +116,52 @@ Features: The dataset includes a variety of features, such as:
 
 Flask and Streamlit are both popular frameworks for creating web applications in Python. They serve different purposes and have their own strengths. Here's a brief overview of how you could use Flask and Streamlit to create web apps for flight fare prediction:
 
-#### 🌲Flask Web App for Flight Fare Prediction 
+#### 🌲Flask Web App for Flight Fare Prediction
+
 ###### 👇 Overview
+
 Flask is a micro web framework that allows you to build web applications in Python. It's highly flexible and can be used to create a wide range of web applications, including those with machine learning models for flight fare prediction.
 [Flask-app](https://ayushmehraa.pythonanywhere.com)
 
 ###### Development Steps
+
 - Create Flask App Structure: Set up a Flask project structure with templates, static files, and the necessary Python files.
-
 - Model Integration: Train your flight fare prediction model using the chosen dataset. Once the model is trained and saved, integrate it into your Flask app.
-
 - Create Routes: Define routes for different pages of your web app, such as a home page, prediction page, and result page.
-
 - Create HTML Templates: Use HTML templates to design the user interface of your web app. The prediction form should allow users to input flight details.
-
 - Form Submission and Prediction: Handle form submissions in your Flask app. Extract user inputs, pass them to the model for prediction, and display the predicted fare on the result page.
-
 - Styling and UI: Enhance the UI using CSS to make your app visually appealing.
-
 - Deployment: Deploy your Flask app on a web server so that users can access it online.
 
 #### 🌲 Streamlit Web App for Flight Fare Prediction
 
 ##### 👇 Overview
+
 Streamlit is a Python library designed for creating interactive web applications for data science and machine learning projects. It's particularly suited for creating quick and intuitive data apps without much web development effort.
 [Streamlit-app](https://flight-fare-prediction-app.streamlit.app)
+
 ###### Development Steps
 
 - Install Streamlit: Install the Streamlit library using pip install streamlit.
-
 - Create Streamlit App: Create a single Python script that contains your entire Streamlit web app.
-
 - User Interface: Use Streamlit's simple syntax to create widgets like sliders, input fields, and buttons for user interaction.
-
 - Model Integration: Integrate your flight fare prediction model into the Streamlit app. You can use Streamlit to display inputs, invoke the model, and show predictions.
-
 - App Layout: Arrange the widgets and outputs in the Streamlit app layout to create a user-friendly interface.
-
 - Styling: Customize the app's appearance using Streamlit's built-in styling options.
-
 - Running the App: Run the Streamlit app using the command streamlit run your_app.py. It will open in a web browser.
-
 - Deployment: Streamlit apps are easily shareable by simply sharing the Python script. You can also deploy the app on platforms like Streamlit Sharing.
 
 #### 🎮 Choosing Between Flask and Streamlit
 
 - Flask: If you need more control over the structure and behavior of your web app, and if you're familiar with web development, Flask provides more flexibility. It's suitable for more complex projects where customization is key.
-
 - Streamlit: If you're primarily focused on data presentation and want to quickly create interactive visualizations, Streamlit is a great choice. It's ideal for data scientists who want to create interactive data apps without delving into web development intricacies.
-
 - Ultimately, the choice between Flask and Streamlit depends on your project's complexity, your familiarity with web development, and your specific goals for the flight fare prediction web app.
+
+---
+# 🎦 Project Demo
+[![Watch the video](https://i.stack.imgur.com/Vp2cE.png)](https://drive.google.com/file/d/1Xg1eRCR7q082C9s7nj3Y3KDQ2FcLHBoq/view?usp=drive_link)
+
+
 
 ---
 
