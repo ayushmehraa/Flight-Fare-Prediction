@@ -60,7 +60,7 @@ This project focuses on predicting flight fares to help travelers make informed 
 
 The Flight Fare Prediction dataset from Kaggle is a comprehensive collection of flight-related data designed for predicting the fares of flights. This dataset is widely used by data scientists and machine learning enthusiasts to develop and fine-tune predictive models that accurately estimate the cost of air travel. Let's take a closer look at this dataset:
 
-#### 📜 Dataset Overview
+  ## 📜 Dataset Overview
 
 Source: Kaggle (https://www.kaggle.com/nikhilmittal/flight-fare-prediction-mh)
 
@@ -116,14 +116,14 @@ Features: The dataset includes a variety of features, such as:
 
 Flask and Streamlit are both popular frameworks for creating web applications in Python. They serve different purposes and have their own strengths. Here's a brief overview of how you could use Flask and Streamlit to create web apps for flight fare prediction:
 
-#### 🌲Flask Web App for Flight Fare Prediction
+## 🌲Flask Web App for Flight Fare Prediction
 
-###### 👇 Overview
+## 👇 Overview
 
 Flask is a micro web framework that allows you to build web applications in Python. It's highly flexible and can be used to create a wide range of web applications, including those with machine learning models for flight fare prediction.
-[Flask-app](https://ayushmehraa.pythonanywhere.com)
+[Flask-app](https://flight-fare-prediction.azurewebsites.net/predictdata)
 
-###### Development Steps
+## Development Steps
 
 - Create Flask App Structure: Set up a Flask project structure with templates, static files, and the necessary Python files.
 - Model Integration: Train your flight fare prediction model using the chosen dataset. Once the model is trained and saved, integrate it into your Flask app.
@@ -131,16 +131,16 @@ Flask is a micro web framework that allows you to build web applications in Pyth
 - Create HTML Templates: Use HTML templates to design the user interface of your web app. The prediction form should allow users to input flight details.
 - Form Submission and Prediction: Handle form submissions in your Flask app. Extract user inputs, pass them to the model for prediction, and display the predicted fare on the result page.
 - Styling and UI: Enhance the UI using CSS to make your app visually appealing.
-- Deployment: Deploy your Flask app on a web server so that users can access it online.
+- Deployment: Deploy your Flask app on a web server so that users can access it online (I had used Azure web app and gitub actions to deploy my flask app).
 
-#### 🌲 Streamlit Web App for Flight Fare Prediction
+## 🌲 Streamlit Web App for Flight Fare Prediction
 
-##### 👇 Overview
+## 👇 Overview
 
 Streamlit is a Python library designed for creating interactive web applications for data science and machine learning projects. It's particularly suited for creating quick and intuitive data apps without much web development effort.
 [Streamlit-app](https://flight-fare-prediction-app.streamlit.app)
 
-###### Development Steps
+## Development Steps
 
 - Install Streamlit: Install the Streamlit library using pip install streamlit.
 - Create Streamlit App: Create a single Python script that contains your entire Streamlit web app.
@@ -149,9 +149,9 @@ Streamlit is a Python library designed for creating interactive web applications
 - App Layout: Arrange the widgets and outputs in the Streamlit app layout to create a user-friendly interface.
 - Styling: Customize the app's appearance using Streamlit's built-in styling options.
 - Running the App: Run the Streamlit app using the command streamlit run your_app.py. It will open in a web browser.
-- Deployment: Streamlit apps are easily shareable by simply sharing the Python script. You can also deploy the app on platforms like Streamlit Sharing.
+- Deployment: Micrsoft Azure web apps are easy to use and deply web app with Github Actions. You can also deploy the app on platforms like Streamlit Sharing.
 
-#### 🎮 Choosing Between Flask and Streamlit
+## 🎮 Choosing Between Flask and Streamlit
 
 - Flask: If you need more control over the structure and behavior of your web app, and if you're familiar with web development, Flask provides more flexibility. It's suitable for more complex projects where customization is key.
 - Streamlit: If you're primarily focused on data presentation and want to quickly create interactive visualizations, Streamlit is a great choice. It's ideal for data scientists who want to create interactive data apps without delving into web development intricacies.
