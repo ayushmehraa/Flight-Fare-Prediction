@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'flight-fare-prediction'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A011589CF84E4ACC89A455AD19F83BC3 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0E597EC980824258BBD38ABA575C8A18 }}
