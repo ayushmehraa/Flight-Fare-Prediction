@@ -20,6 +20,9 @@ Technologies used.
         <img width="55" height="55" src="https://img.icons8.com/nolan/64/flask.png" alt="flask"/>
         <img width="48" height="48" src="https://img.icons8.com/ios-filled/50/22C3E6/html-filetype.png" alt="html-filetype"/>
         <img width="48" height="48" src="https://img.icons8.com/color/48/git.png" alt="git"/>
+        <img src="https://www.kindpng.com/picc/m/361-3612481_microsoft-azure-logo-svg-hd-png-download.png" width="80" alt="Azure Cloud" />
+        <img src="https://www.kindpng.com/picc/m/128-1280192_github-logo-png-github-png-transparent-png.png" alt="Github Logo Png - Github Png, Transparent Png@kindpng.com" style="width:50px; height:50px">
+
 
 </p>
 </div>
